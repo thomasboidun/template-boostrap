@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>THOMAS BOIDUN</title>
+   <!-- link cdn boostrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!-- my stylesheet -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">THOMAS BOIDUN</a>
+         <div class="btn-group" role="group" aria-label="btn-group">
+            <a type="button" class="btn btn-dark" href="#portfolio">PORTFOLIO</a>
+            <a type="button" class="btn btn-dark" href="#about">QUI SUIS-JE ?</a>
+            <a type="button" class="btn btn-dark" href="#contact">CONTACT</a>
+         </div>
+         <button type="button" class="btn btn-info btn-lg">MENU</button>
+      </nav>
+   </header>
+
+   <article id="profile">
+      <div class="container">
+         <img src="./assets/profile-picture.jpg" alt="profile-picture" class="profile-picture">
+         <h1>THOMAS BOIDUN</h1>
+         <p>DÉVELOPPEUR WEB</p>
+      </div>
+   </article>
+
+   <article id="portfolio">
+      <div class="container">
+         <h1>PORTFOLIO</h1>
+         <ul class="container-fluid">
+            <li class="folio abc">
+               <div class="folio-hover">
+                  <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+               </div>
+               <img src="./assets/abc.png" alt="abc logo" width="100">
+            </li>
+            <li class="folio meeting">
+               <div class="folio-hover">
+                  <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+               </div>
+               <img src="https://image.flaticon.com/icons/svg/902/902722.svg" alt="meeting logo" width="100">
+
+            </li>
+         </ul>
+      </div>
+   </article>
+
+   <article id="about">
+      <div class="container">
+         <h1>QUI SUIS-JE ?</h1>
+         <div class="container-fluid">
+            <p>
+               Récemment diplômé du titre professionnel de Développeur Web et Web Mobile (niv. 5), j'ai pour objectif de
+               poursuivre mes études afin d'accéder à une qualification supèrieure. En effet, le domaine de
+               l'informatique est en constante évolution et les besoins dans ce mileu augmente aussi que la concurrence.
+               C'est pourquoi l'experience et les formations sont, celon moi, de bons bagages pour y faire face. De ce
+               fait, j'ai fait le choix d'intégrer le cursus en alternance de Concepteur Développeur d'Applications
+               (niv. 6) à la 2i Tech Academy.
+            </p>
+            <p>
+               L'aspect logique et le côté créatif du métier de Développeur à très vite attiser ma curiosité. J'ai
+               commencé par apprendre les bases du HTML et CSS en suivant des cours sur internet et une fois acquises,
+               j'ai ressenti le besoin d'en savoir plus. Désormais capable de développer les parties front-end et
+               back-end d'une application web et web mobile, je ressens toujours le besoin d'en connaitre davatage. Ce
+               qui est, pour moi, une grande source de motivation et confirme ma décision de devenir Développeur.
+            </p>
+         </div>
+         <div class="btn-box">
+            <a type="button" class="btn btn-outline-light btn-lg" target="_blank" href="assets/tboidun-cv.pdf">
+               Voir mon CV
+            </a>
+         </div>
+      </div>
+   </article>
+
+   <article id="contact">
+      <div class="container">
+         <h1>CONTACT</h1>
+         <form id="contact-form" method="post">
+            <div class="form-group">
+               <label for="name">Prénom</label>
+               <input id="name" type="text" class="form-control form-control-lg" placeholder="Prénom">
+            </div>
+            <div class="form-group">
+               <label for="email">Adresse e-mail</label>
+               <input id="email" type="email" class="form-control form-control-lg" placeholder="Adresse e-mail">
+            </div>
+            <div class="form-group">
+               <label for="phone">Numéro de téléphone</label>
+               <input id="phone" type="text" class="form-control form-control-lg" placeholder="Numéro de téléphone">
+               <small id="emailHelp" class="form-text text-muted">Vos données ne seront ni partagé ni échangé.</small>
+            </div>
+            <div class="form-group">
+               <label for="message">Votre Message</label>
+               <textarea id="message" class="form-control form-control-lg" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info btn-lg">Envoyer</button>
+         </form>
+      </div>
+   </article>
+
+   <footer>
+      <div class="container">
+         <div>
+            <h2>EMPLACEMENT</h2>
+            <p>
+               2 Allée Lionel Hampton, <br />
+               33700 Mérignac</p>
+         </div>
+         <div>
+            <h2>AUTOUR DU WEB</h2>
+            <div class="logo-box container-fluid">
+               <a href="https://www.linkedin.com/in/thomas-boidun-486500197/" target="_blank">
+                  <img src="./assets/linkedinOK.png" alt="logo linkedin" width="50">
+               </a>
+               <a href="https://github.com/thomasboidun" target="_blank">
+                  <img src="./assets/githubOK.png" alt="logo github" width="50">
+               </a>
+            </div>
+         </div>
+         <div>
+            <h2>TEMPLATE</h2>
+            <p>
+               Texte
+            </p>
+         </div>
+      </div>
+   </footer>
+   <!-- script bootstrap -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+      </script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+      </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+      </script>
+   <!-- mon script -->
+   <script src="scripts/script.js"></script>
+</body>
+
+</html>
