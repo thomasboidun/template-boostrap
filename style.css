@@ -5,6 +5,10 @@
    transition: all 0.4s;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 nav.navbar {
    display: flex;
    align-items: center;
@@ -218,6 +222,10 @@ footer>div.container div.logo-box {
 
    article#profile>div.container>h1 {
       margin-top: .5rem;
+   }
+
+   article#profile>div.container>p {
+      font-size: medium;
    }
 
    article#portfolio>div.container>ul.container-fluid {

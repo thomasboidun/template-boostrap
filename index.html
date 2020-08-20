@@ -29,7 +29,7 @@
       <div class="container">
          <img src="./assets/profile-picture.jpg" alt="profile-picture" class="profile-picture">
          <h1>THOMAS BOIDUN</h1>
-         <p>DÉVELOPPEUR WEB</p>
+         <p>DÉVELOPPEUR WEB & WEB MOBILE</p>
       </div>
    </article>
 
@@ -39,17 +39,63 @@
          <ul class="container-fluid">
             <li class="folio abc">
                <div class="folio-hover">
-                  <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+                  <button type="button" class="btn " data-toggle="modal" data-target="#abcModal">
+                     <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+                  </button>
                </div>
                <img src="./assets/abc.png" alt="abc logo" width="100">
             </li>
+
+            <!-- Modal -->
+            <div class="modal fade" id="abcModal" tabindex="-1" aria-labelledby="abcModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="abcModalLabel">A Baby Corner</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        ...
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
             <li class="folio meeting">
                <div class="folio-hover">
-                  <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#meetingModal">
+                     <img src="https://image.flaticon.com/icons/svg/1828/1828764.svg" alt="more icon" width="50">
+                  </button>
                </div>
                <img src="https://image.flaticon.com/icons/svg/902/902722.svg" alt="meeting logo" width="100">
-
             </li>
+
+            <!-- Modal -->
+            <div class="modal fade" id="meetingModal" tabindex="-1" aria-labelledby="meetingModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="meetingModalLabel">Réunions</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        ...
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </ul>
       </div>
    </article>
@@ -97,7 +143,7 @@
             <div class="form-group">
                <label for="phone">Numéro de téléphone</label>
                <input id="phone" type="text" class="form-control form-control-lg" placeholder="Numéro de téléphone">
-               <small id="emailHelp" class="form-text text-muted">Vos données ne seront ni partagé ni échangé.</small>
+               <small id="emailHelp" class="form-text text-muted">Vos données ne seront ni partagées ni échangées.</small>
             </div>
             <div class="form-group">
                <label for="message">Votre Message</label>
@@ -145,8 +191,9 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
       </script>
-   <!-- mon script -->
-   <script src="scripts/script.js"></script>
+   <!-- mes scripts -->
+   <script src="scripts/validateForm.script.js"></script>
+   <script src="scripts/sendForm.script.js"></script>
 </body>
 
 </html>
