@@ -84,9 +84,9 @@ function checkPattern(name, email, phone) {
  */
 function generateEmail(name, email, phone, message) {
    let newMail = {
-      mailto = "thomas.boidun@live.fr",
-      subject = "",
-      body = "",
+      mailto : "thomas.boidun@live.fr",
+      subject : "",
+      body : "",
    };
 
    // Définir l'objet de l'e-mail
