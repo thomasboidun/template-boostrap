@@ -25,15 +25,15 @@
       </nav>
    </header>
 
-   <article id="profile">
+   <section id="profile">
       <div class="container">
          <img src="./assets/profile-picture.jpg" alt="profile-picture" class="profile-picture">
          <h1>THOMAS BOIDUN</h1>
          <p>DÉVELOPPEUR WEB & WEB MOBILE</p>
       </div>
-   </article>
+   </section>
 
-   <article id="portfolio">
+   <section id="portfolio">
       <div class="container">
          <h1>PORTFOLIO</h1>
          <ul class="container-fluid">
@@ -48,20 +48,63 @@
 
             <!-- Modal -->
             <div class="modal fade" id="abcModal" tabindex="-1" aria-labelledby="abcModalLabel" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                   <div class="modal-content">
                      <div class="modal-header">
-                        <h5 class="modal-title" id="abcModalLabel">A Baby Corner</h5>
+                        <h5 class="modal-title" id="abcModalLabel">
+                           A Baby Corner <br>
+                           <span class="lead">L'application dédiée aux parents désorientées</span>
+                        </h5>
+
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                         </button>
                      </div>
                      <div class="modal-body">
-                        ...
+                        <img src="assets/woman-3602245_1920.jpg" alt="photo famille" width="100%"> <br>
+                        <h6>Description</h6>
+                        <p>
+                           Avec pour objectif de faciliter la vie des parents et des accompagnateurs de jeunes enfants
+                           lors de leur sortie,
+                           cette application web et web mobile référence les lieux et évènements les plus adaptés aux
+                           enfants en bas-âge.
+                        </p>
+                        <h6>Informations</h6>
+                        <p>
+                           Réaliser en amont de ma formation de Développeur Web et Web Mobile (du 19/09/2019 au
+                           20/03/2020) à l'IFPA de Mérignac, je continue, à ce jour, de l'améliorer.
+                        </p>
+                        <h6>Stack Technique</h6>
+                        <p>
+                           <ul>
+                              <li>HTML, CSS, JavaScript/TypeScript</li>
+                              <li>Angular-CLI, Material Design</li>
+                              <li>LoopBack-CLI</li>
+                              <li>MongoDB</li>
+                           </ul>
+                        </p>
+                        <h6>Fonctionnalités déjà existante :</h6>
+                        <p>
+                           <ul>
+                              <li>Rechercher un lieu</li>
+                              <li>Noter et commenter un lieu</li>
+                              <li>Inscription et Authentification</li>
+                              <li>Gestion des données membres de l'applications</li>
+                           </ul>
+                        </p>
+                        <h6>Fonctionnalités à venir :</h6>
+                        <ul>
+                           <li>Géolocalisation</li>
+                           <li>Formulaire de contact</li>
+                           <li>Carnet d'adresses favories</li>
+                           <li>Rubrique évènements</li>
+                        </ul>
                      </div>
                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <!-- <button type="button" class="btn btn-info">
+                           <img src="assets/github.png" alt="github logo" height="24px" style="filter:invert(1);">
+                        </button> -->
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                      </div>
                   </div>
                </div>
@@ -77,38 +120,79 @@
             </li>
 
             <!-- Modal -->
-            <div class="modal fade" id="meetingModal" tabindex="-1" aria-labelledby="meetingModalLabel" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
+            <div class="modal fade" id="meetingModal" tabindex="-1" aria-labelledby="meetingModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                   <div class="modal-content">
                      <div class="modal-header">
-                        <h5 class="modal-title" id="meetingModalLabel">Réunions</h5>
+                        <h5>
+                           Conférences <br>
+                           <span class="lead">Organiser vos conférences</span>
+                        </h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                         </button>
                      </div>
                      <div class="modal-body">
-                        ...
+                        <img src="assets/taking-notes-3475991_1920.jpg" alt="photo réunions" width="100%"> <br>
+                        <h6>Description</h6>
+                        <p>
+                           Application générique permettant d'organiser des conférences/réunions auxquelles les utilisateurs peuvent s'inscrire.
+                        </p>
+                        <h6>Informations</h6>
+                        <p>
+                           Développer en télétravail pour l'entreprise Informatique Libre lors de mon stage de fin de formation de Développeur Web et Web Mobile (du 10/02/2020 au
+                           20/03/2020).
+                        </p>
+                        <h6>Stack Technique</h6>
+                        <p>
+                           <ul>
+                              <li>HTML, CSS, Javascript, PHP</li>
+                              <li>VueJS, Foundation</li>
+                              <li>Slim (micro-framework PHP)</li>
+                              <li>MySQL</li>
+                           </ul>
+                        </p>
+                        <h6>Fonctionnalités :</h6>
+                        <p>
+                           <ul>
+                              <li>Filtrer les conférences par catégorie</li>
+                              <li>Inscription à une ou plusieurs conférences</li>
+                              <li>Gestion des données membres de l'applications</li>
+                           </ul>
+                        </p>
                      </div>
                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <!-- <button type="button" class="btn btn-info">
+                           <img src="assets/github.png" alt="github logo" height="24px" style="filter:invert(1);">
+                        </button> -->
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                      </div>
                   </div>
                </div>
             </div>
          </ul>
       </div>
-   </article>
+   </section>
 
-   <article id="about">
+   <section id="about">
       <div class="container">
          <h1>QUI SUIS-JE ?</h1>
          <div class="container-fluid">
             <p>
-               Récemment diplômé du titre professionnel de Développeur Web et Web Mobile (Niv. 5), j'ai pour objectif de poursuivre mes études afin d'accéder à une qualification supérieure. En effet, le domaine de l'informatique est en constante évolution et les besoins dans ce milieu augmentent aussi vite gque la concurrence. C'est pourquoi l'expérience et les formations sont, celons moi, de bons bagages pour y faire face. De ce fait, j'ai fait le choix d'intégrer le cursus en alternance de Concepteur Développeur d'Applications (Niv. 6) à la 2i Tech Academy.
+               Récemment diplômé du titre professionnel de Développeur Web et Web Mobile (Niv. 5), j'ai pour objectif de
+               poursuivre mes études afin d'accéder à une qualification supérieure. En effet, le domaine de
+               l'informatique est en constante évolution et les besoins dans ce milieu augmentent aussi vite gque la
+               concurrence. C'est pourquoi l'expérience et les formations sont, celons moi, de bons bagages pour y faire
+               face. De ce fait, j'ai fait le choix d'intégrer le cursus en alternance de Concepteur Développeur
+               d'Applications (Niv. 6) à la 2i Tech Academy.
             </p>
             <p>
-               L'aspect logique et le côté créatif du métier de Développeur ont très vite attisé ma curiosité. J'ai commencé par apprendre les bases du HTML et CSS en suivant des cours sur Internet et une fois acquises, j'ai ressenti le besoin d'en savoir plus. Désormais capable de développer les parties front-end et back-end d'une application web et web mobile, je ressens toujours le besoin d'en connaître davantage. Ce qui est, pour moi, une grande source de motivation et confirme ma décision de devenir Développeur.
+               L'aspect logique et le côté créatif du métier de Développeur ont très vite attisé ma curiosité. J'ai
+               commencé par apprendre les bases du HTML et CSS en suivant des cours sur Internet et une fois acquises,
+               j'ai ressenti le besoin d'en savoir plus. Désormais capable de développer les parties front-end et
+               back-end d'une application web et web mobile, je ressens toujours le besoin d'en connaître davantage. Ce
+               qui est, pour moi, une grande source de motivation et confirme ma décision de devenir Développeur.
             </p>
          </div>
          <div class="btn-box">
@@ -117,9 +201,9 @@
             </a>
          </div>
       </div>
-   </article>
+   </section>
 
-   <article id="contact">
+   <section id="contact">
       <div class="container">
          <h1>CONTACT</h1>
          <form id="contact-form" method="post">
@@ -134,7 +218,8 @@
             <div class="form-group">
                <label for="phone">Numéro de téléphone</label>
                <input id="phone" type="text" class="form-control form-control-lg" placeholder="Numéro de téléphone">
-               <small id="emailHelp" class="form-text text-muted">Vos données ne seront ni partagées ni échangées.</small>
+               <small id="emailHelp" class="form-text text-muted">Vos données ne seront ni partagées ni
+                  échangées.</small>
             </div>
             <div class="form-group">
                <label for="message">Votre Message</label>
@@ -143,7 +228,7 @@
             <button type="submit" class="btn btn-info btn-lg" disabled="disabled">Envoyer</button>
          </form>
       </div>
-   </article>
+   </section>
 
    <footer>
       <div class="container">
@@ -167,7 +252,9 @@
          <div>
             <h2>TEMPLATE</h2>
             <p>
-               Inspiré de la template <a href="https://startbootstrap.github.io/startbootstrap-freelancer/" title="Freenlancer - Start Boostrap" target=_blank">Freenlancer - Start Boostrap</a>, je me suis amusé à la développer et la réadapter en fonction de mes besoins. Juste pour le fun ! 😄
+               Inspiré de la template <a href="https://startbootstrap.github.io/startbootstrap-freelancer/"
+                  title="Freenlancer - Start Boostrap" target=_blank">Freenlancer - Start Boostrap</a>, je me suis amusé
+               à la développer et la réadapter en fonction de mes besoins. Juste pour le fun ! 😄
             </p>
          </div>
       </div>
@@ -175,13 +262,13 @@
    <!-- script bootstrap -->
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-      </script>
+   </script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-      </script>
+   </script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-      </script>
+   </script>
    <!-- mes scripts -->
    <script src="scripts/validateForm.script.js"></script>
    <script src="scripts/sendForm.script.js"></script>

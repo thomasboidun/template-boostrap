@@ -19,23 +19,23 @@ nav.navbar {
    top: 0;
    right: 0;
    left: 0;
-   z-index: 9999;
+   z-index: 999;
 }
 
 nav.navbar>button {
    display: none;
 }
 
-article {
+section {
    padding: 100px 0;
 }
 
-article:nth-child(even) {
+section:nth-child(even) {
    background-color: #7ed6df;
    color: #ffffff;
 }
 
-article:nth-child(odd) {
+section:nth-child(odd) {
    background-color: #ffffff;
    color: #7ed6df;
 }
@@ -55,25 +55,25 @@ h1:nth-child(odd) {
    border-bottom: .25rem solid #7ed6df;
 }
 
-article>div.container {
+section>div.container {
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 
 /* *PROFILE* */
-article#profile {
+section#profile {
    padding-top: calc(100px + 37.6px);
 }
 
-article#profile>div.container>img.profile-picture {
+section#profile>div.container>img.profile-picture {
    width: 300px;
    height: 300px;
    border-radius: 50%;
    margin: 0 auto;
 }
 
-article#profile>div.container>p {
+section#profile>div.container>p {
    font-size: 2rem;
    font-weight: bold;
    width: max-content;
@@ -81,7 +81,7 @@ article#profile>div.container>p {
 }
 
 /* *PORTFOLIO* */
-article#portfolio>div.container>ul.container-fluid {
+section#portfolio>div.container>ul.container-fluid {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
@@ -89,7 +89,7 @@ article#portfolio>div.container>ul.container-fluid {
    margin-top: 2rem;
 }
 
-article#portfolio>div.container>ul.container-fluid>li.folio {
+section#portfolio>div.container>ul.container-fluid>li.folio {
    position: relative;
    width: 30%;
    height: 200px;
@@ -102,16 +102,16 @@ article#portfolio>div.container>ul.container-fluid>li.folio {
    cursor: pointer;
 }
 
-article#portfolio>div.container>ul.container-fluid>li.folio.abc {
+section#portfolio>div.container>ul.container-fluid>li.folio.abc {
    background-image: url(./assets/background.jpg);
    background-size: contain;
 }
 
-article#portfolio>div.container>ul.container-fluid>li.folio.meeting {
+section#portfolio>div.container>ul.container-fluid>li.folio.meeting {
    background-color: #343a40;
 }
 
-article#portfolio>div.container>ul.container-fluid>li>div.folio-hover {
+section#portfolio>div.container>ul.container-fluid>li>div.folio-hover {
    position: absolute;
    top: 0;
    left: 0;
@@ -126,49 +126,67 @@ article#portfolio>div.container>ul.container-fluid>li>div.folio-hover {
    align-items: center;
 }
 
-article#portfolio>div.container>ul.container-fluid>li>div.folio-hover:hover {
+section#portfolio>div.container>ul.container-fluid>li>div.folio-hover:hover {
    opacity: 1;
 }
 
+/* Modal */
+div.modal.fade {
+   color: black;
+}
+
+div.modal.fade div.modal-body img {
+   margin-bottom: .5rem;
+}
+
+div.modal.fade p:last-child {
+   margin-bottom: auto;
+}
+
+div.modal.fade ul{
+   margin-left: 1rem;
+}
+
+
 /* *ABOUT* */
-article#about>div.container>div.container-fluid {
+section#about>div.container>div.container-fluid {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-article#about>div.container>div.container-fluid>p {
+section#about>div.container>div.container-fluid>p {
    width: 50%;
    padding: 1rem;
    text-align: justify;
 }
 
-article#about>div.container>div.container-fluid>p:first-child {
+section#about>div.container>div.container-fluid>p:first-child {
    border-right: .25rem solid #ffffff;
 }
 
-article#about>div.container>div.btn-box {
+section#about>div.container>div.btn-box {
    display: flex;
    justify-content: center;
 }
 
 /* *CONTACT* */
-article#contact>div.container>form {
+section#contact>div.container>form {
    margin: 0 auto;
    margin-top: 1rem;
    width: 100%;
    max-width: 720px;
 }
 
-article#contact>div.container>form input.error,
-article#contact>div.container>form textarea.error {
+section#contact>div.container>form input.error,
+section#contact>div.container>form textarea.error {
    color: #721c24;
    background-color: #f8d7da;
    border-color: #f5c6cb;
 }
 
-article#contact>div.container>form input.success,
-article#contact>div.container>form textarea.success {
+section#contact>div.container>form input.success,
+section#contact>div.container>form textarea.success {
    color: #0c5460;
    background-color: #d1ecf1;
    border-color: #bee5eb;
@@ -223,48 +241,48 @@ footer>div.container div.logo-box {
       font-size: xx-large;
    }
 
-   article {
+   section {
       padding: 50px 0;
    }
 
-   article#profile>div.container>img.profile-picture {
+   section#profile>div.container>img.profile-picture {
       width: 200px;
       height: 200px;
       border-radius: 50%;
       margin: 0 auto;
    }
 
-   article#profile>div.container>h1 {
+   section#profile>div.container>h1 {
       margin-top: .5rem;
    }
 
-   article#profile>div.container>p {
+   section#profile>div.container>p {
       font-size: medium;
    }
 
-   article#portfolio>div.container>ul.container-fluid {
+   section#portfolio>div.container>ul.container-fluid {
       flex-direction: column;
    }
 
-   article#portfolio>div.container>ul.container-fluid>li.folio {
+   section#portfolio>div.container>ul.container-fluid>li.folio {
       width: 100%;
       margin-bottom: 1rem
    }
 
-   article#portfolio>div.container>ul.container-flui>li.folio:last-child {
+   section#portfolio>div.container>ul.container-flui>li.folio:last-child {
       margin-bottom: 0;
    }
 
-   article#about>div.container>div.container-fluid {
+   section#about>div.container>div.container-fluid {
       flex-direction: column
    }
 
-   article#about>div.container>div.container-fluid>p {
+   section#about>div.container>div.container-fluid>p {
       width: 100%;
       padding: 0;
    }
 
-   article#about>div.container>div.container-fluid>p:first-child {
+   section#about>div.container>div.container-fluid>p:first-child {
       padding: 1rem 0;
       border-right: none;
       border-bottom: .25rem solid #ffffff
