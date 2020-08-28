@@ -23,7 +23,7 @@ nav.navbar {
    transition: all .4s;
 }
 
-nav.navbar>button {
+nav.navbar>div.dropdown {
    display: none;
 }
 
@@ -230,7 +230,7 @@ footer>div.container div.logo-box {
       padding-left: 12.5px;
    }
 
-   nav.navbar>button {
+   nav.navbar>div.dropdown {
       display: block;
    }
 
