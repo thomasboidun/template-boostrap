@@ -64,7 +64,8 @@ section>div.container {
 
 /* *PROFILE* */
 section#profile {
-   padding-top: calc(100px + 37.6px);
+   /* padding-top: calc(100px + 37.6px); */
+   margin-top: 56px;
 }
 
 section#profile>div.container>img.profile-picture {
@@ -243,7 +244,7 @@ footer>div.container div.logo-box {
    }
 
    section {
-      padding: 50px 0;
+      padding: 75px 0;
    }
 
    section#profile>div.container>img.profile-picture {
