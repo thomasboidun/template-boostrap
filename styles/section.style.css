@@ -1,0 +1,19 @@
+section {
+  padding: 100px 0;
+}
+
+section:nth-child(even) {
+  background-color: #7ed6df;
+  color: #ffffff;
+}
+
+section:nth-child(odd) {
+  background-color: #ffffff;
+  color: #7ed6df;
+}
+
+section>div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

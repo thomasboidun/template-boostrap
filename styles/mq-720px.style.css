@@ -1,0 +1,84 @@
+@media screen and (max-width: 720px) {
+  nav.navbar {
+    width: 100vw;
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+  }
+
+  nav.navbar>div.dropdown {
+    display: block;
+  }
+
+  nav.navbar>div.btn-group {
+    display: none;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  section {
+    padding: 75px 0;
+  }
+
+  section#profile>div.container>img.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  section#profile>div.container>h1 {
+    margin-top: .5rem;
+  }
+
+  section#profile>div.container>p {
+    font-size: medium;
+  }
+
+  section#portfolio>div.container>ul.container-fluid {
+    flex-direction: column;
+  }
+
+  section#portfolio>div.container>ul.container-fluid>li.folio {
+    width: 100%;
+    margin-bottom: 1rem
+  }
+
+  section#portfolio>div.container>ul.container-flui>li.folio:last-child {
+    margin-bottom: 0;
+  }
+
+  section#about>div.container>div.container-fluid {
+    flex-direction: column
+  }
+
+  section#about>div.container>div.container-fluid>p {
+    width: 100%;
+    padding: 0;
+  }
+
+  section#about>div.container>div.container-fluid>p:first-child {
+    padding: 1rem 0;
+    border-right: none;
+    border-bottom: .25rem solid #ffffff
+  }
+
+  footer>div.container {
+    flex-direction: column;
+  }
+
+  footer>div.container>div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  footer>div.container>div>p {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer>div.container>div:last-child {
+    margin-bottom: 0;
+  }
+}

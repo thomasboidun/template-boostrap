@@ -1,0 +1,7 @@
+/* *CONTACT* */
+section#contact>div.container>form {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 720px;
+}

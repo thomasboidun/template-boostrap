@@ -1,0 +1,22 @@
+footer {
+  background-color: #343a40;
+  padding: 50px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer>div.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer>div.container>div {
+  width: 33%;
+}
+
+footer>div.container div.logo-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

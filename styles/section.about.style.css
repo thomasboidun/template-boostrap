@@ -1,0 +1,21 @@
+/* *ABOUT* */
+section#about>div.container>div.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#about>div.container>div.container-fluid>p {
+  width: 50%;
+  padding: 1rem;
+  text-align: justify;
+}
+
+section#about>div.container>div.container-fluid>p:first-child {
+  border-right: .25rem solid #ffffff;
+}
+
+section#about>div.container>div.btn-box {
+  display: flex;
+  justify-content: center;
+}

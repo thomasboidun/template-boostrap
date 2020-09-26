@@ -1,0 +1,17 @@
+nav.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-left: 150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  transition: all .4s;
+}
+
+nav.navbar>div.dropdown {
+  display: none;
+}
